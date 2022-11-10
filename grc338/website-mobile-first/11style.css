@@ -1,0 +1,169 @@
+/*CSS DOCUMENT*/
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; } 
+
+img {
+	width: 100%;
+	display: block;
+}
+
+div.container { 
+    max-width: 60em;
+    margin:auto;
+}
+
+body {  
+ 
+      background-color: #fafafa; 
+      font-family: highgate, san-serif;
+      font-weight: 600;
+      font-style: normal;
+      color: #1e1e1e ;
+      padding-bottom: 2rem 2re;
+      line-height: 180%    
+   }
+
+h1 {
+    background-color: #fafafa;
+    padding: 1rem, 3rem, 1rem;
+    margin:2rem;
+ }
+
+h2 {
+    color: #1e4629;
+    font-size: 3rem;
+    font-family: miller-display;
+    font-weight: 600;
+    text-align: center;
+    line-height: 100%
+  }
+  
+h3 {
+    border-bottom: 3px dotted rgb(240, 160, 31);
+    margin:1rem;
+    font-family: helvetica, serif;
+    font-weight: 400;
+    color: rgb(220, 64, 17); 
+    font-size: 1.5rem;
+    padding:1rem 1rem;
+    text-align: center;
+    line-height: 140%
+
+  }
+
+h4 { 
+    font-family: juniper-std,sans-serif;
+    font-weight: 700;
+ }
+
+
+li { 
+	margin: 1rem 1rem;
+   
+}
+
+ul {
+    margin: 1rem 1rem 3rem 1rem;
+    font-family: sans-serif;  
+    font-weight: 400; 
+    font-style: normal; 
+    list-style-type: none;
+    }
+
+
+nav{
+        width:100%;
+        background-color: rgb(11, 35, 8);
+        overflow:auto;
+    }
+
+ ul li a {
+    width: 100px;
+    display: block;
+    padding:10px 15px;
+    text-decoration: none;
+    color: #1f1e1e;
+    text-align: center;
+}
+
+ul li a:hover {
+  background:rgb(134, 135, 134);
+  transition: 0.5s;
+  text-transform: uppercase;
+  
+}
+    
+nav ul 
+        {
+        margin:auto;
+        list-style:none;
+
+    }
+    
+nav ul li{ 
+        float:left;
+    }
+    
+nav ul li a {
+        width: 100px;
+        display: block;
+        padding:20px 25px;
+        text-decoration: none;
+        color: #f2f2f2;
+        text-align: center;
+    }
+   
+ nav ul li a:hover {
+        background:rgb(57, 87, 59);
+        transition: 0.5s;
+        text-transform: uppercase;
+        
+    }
+
+span {
+  color: rgb(172,50,43);
+ }
+
+p.addy {
+    font-weight: 600;
+    font-family: highgate, sans-serif;
+    font-style: normal;
+    text-align: center;
+   }
+
+ p.bottom {
+  margin-bottom: 2rem;
+  text-align: center;
+ }
+
+   h3.left, p.left{
+    text-align: left;
+    margin-left:0rem;
+   }
+
+    p.description {
+      font-style: italic;
+    }
+    
+    p.price {
+      color: rgb(172,50,43);
+    }
+   
+
+    h2 span { 	
+      font-family: Helvetica, sans-serif;
+      text-align: center;
+    
+    }
+
+    header {
+      text-align: center;
+      padding: 1rem;   
+  }
+
+  footer{
+    font-family: Helvetica, sans-serif;
+    font-weight: 400;
+  }
+
+  
+/*Please don’t change this CSS stylesheet for the content hierarchy assginment */
