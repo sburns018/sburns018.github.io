@@ -119,10 +119,6 @@ nav ul li a {
         
     }
 
-span {
-  color: rgb(172,50,43);
- }
-
 p.addy {
     font-weight: 600;
     font-family: highgate, sans-serif;
@@ -130,37 +126,36 @@ p.addy {
     text-align: center;
    }
 
- p.bottom {
+p.bottom {
   margin-bottom: 2rem;
   text-align: center;
  }
 
-   h3.left, p.left{
+h3.left, p.left {
     text-align: left;
     margin-left:0rem;
    }
 
-    p.description {
+p.description {
       font-style: italic;
     }
     
-    p.price {
+p.price {
       color: rgb(172,50,43);
     }
    
-
-    h2 span { 	
+h2 span { 	
       font-family: Helvetica, sans-serif;
       text-align: center;
     
     }
 
-    header {
+header {
       text-align: center;
       padding: 1rem;   
   }
 
-  footer{
+footer{
     font-family: Helvetica, sans-serif;
     font-weight: 400;
   }
