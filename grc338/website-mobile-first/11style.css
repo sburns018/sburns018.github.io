@@ -77,9 +77,9 @@ nav{
     }
 
  ul li a {
-    width: 100px;
+    width: 2rem;
     display: block;
-    padding:10px 15px;
+    padding:2rem 2rem;
     text-decoration: none;
     color: #1f1e1e;
     text-align:left;
