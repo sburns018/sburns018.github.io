@@ -82,7 +82,7 @@ nav{
     padding:10px 15px;
     text-decoration: none;
     color: #1f1e1e;
-    text-align: center;
+    text-align:left;
 }
 
 ul li a:hover {
