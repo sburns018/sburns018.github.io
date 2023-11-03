@@ -1,15 +1,14 @@
 /*CSS document*/
 
-body { 
-    background-color: rgb(237, 236, 219);
-    font-family: sonar-sans, sans-serif;
-    font-style: normal;
-    font-weight: 300;
+body {
+
 }
+
 
 div.container {
     max-width: 40em;
     margin: auto;
+    padding: 1em;
 }
 
 figure {
@@ -25,34 +24,38 @@ ul {
     padding: 0;
 }
 
-li{
-    display: inline;
-padding: 0rem .75rem 0rem 0rem;
+p { font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+h1,h2,h3 { font-family: sans-serif;
+    text-transform: uppercase;
+    color:#6fa365 ;
+    font-size: 1 rem;
 }
 
 a{
-	font-family: Sonar-sans, sans-serif;
-	font-weight: 500;
+    text-decoration: none;
+    color: black; 
+}
+
+ul li {
+    display: inline;
+    padding: 0rem .75rem 0rem 0rem;
+	text-transform: uppercase;
+	font-weight: bolder;
+	margin-bottom: .30rem;
+	}
+	
+ul li a {
+	color: #000000;
+	font-family: sans-serif;
+	font-weight: bold;
 	font-style: normal;
-    color: rgb(86, 112, 71);
-}
-
-a:hover{
-    color: rgb(35, 30, 21);
-}
-
-h1 {
-    font-family: monarcha, serif;
-    font-style: normal;
-    font-weight: 300;
-}
-
-h2, h3 {
-    font-family:serif;
-    font-style: normal;
-    font-weight: 300;  
-}
-
-.mainstory {
-    padding-top: 2rem;
-}
+    font-size: 1rem;
+	}
+   
+ul li a:hover{
+        color: rgb(230, 154, 12);
+    }
