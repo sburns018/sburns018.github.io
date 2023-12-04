@@ -1,8 +1,8 @@
 /*CSS document*/
 
 body {
- 
- 
+    background-color: rgb(255, 253, 253);
+    color:rgb(45, 39, 39)
 }
 
 .grid-container {
@@ -14,8 +14,7 @@ div.container {
     max-width: 40em;
     margin: auto;
     padding: 1em;
-    background-color: #fafafa;
-     
+        
 }
 
 header { 
@@ -38,20 +37,21 @@ ul {
 p { font-family: sans-serif;
     font-style: normal;
     font-weight: 400;
+    color: rgb(45, 39, 39)
 }
 
 h1{
      width: 8em;
 }
-h1,h2,h3 { font-family: sans-serif;
+h2,h3 { font-family: sans-serif;
     text-transform: uppercase;
     color:#6a874a ;
-    font-size: 1 rem;
+    font-size: .90rem;
 }
 
 a{
     text-decoration: none;
-    color: black; 
+    color: rgb(24, 24, 24); 
 }
 
 ul li {
@@ -63,15 +63,17 @@ ul li {
 	}
 	
 ul li a {
-	color: #000000;
+	color: rgb(24, 24, 24);
 	font-family: sans-serif;
 	font-weight: bold;
 	font-style: normal;
     font-size: 1rem;
+
 	}
    
 ul li a:hover{
         color: rgb(230, 154, 12);
+    
     }
 
 @media screen and (min-width: 60em){
@@ -133,9 +135,10 @@ section.main a p{
 
  /* beginning of gallery section */
 
- div.gallery_container {
-    max-width: 50em;
+ div.gallery {
+    max-width: 60em;
     margin: auto;
+    padding: 1em;
 }
 
 
@@ -147,18 +150,28 @@ div.gallery_container main {
 }
 
 figure.gallery {
+    margin: 0;
     opacity: 0;
-    position: hidden;
+    position: absolute;
     width: calc(100%-2rem);
     transition: opacity 0.5s;
 }
 
-figcaption.gallery {
-    padding: 6em;
+figcaption{
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 1em 0;
+
 }
 
 input {
     display: none;
+}
+
+nav.nav {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: .2em;
 }
 
 input:nth-of-type(1):checked ~ main figure:nth-of-type(1),
@@ -172,13 +185,9 @@ input:nth-of-type(8):checked ~ main figure:nth-of-type(8){
     opacity: 1;
 }
 
-nav.gallery_nav {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: .3em;
-    margin: 3em 0;
-}
 
+
+}
 /* beginning of Newsletter section */
 form {
     grid-column: 1/2;
@@ -215,7 +224,7 @@ section ul li select {
 
 input {
     font-family: sans-serif;
-    color: #0a6319;
+    color: rgb(79, 120, 56)
 }
 
 button {
@@ -223,4 +232,36 @@ button {
     font-size: 1rem;
     font-weight: 800;
     color: #9b9d9b;
+}
+
+/* Display: Darkmode */
+@media screen and (prefers-color-scheme: dark) {
+
+Body{ 
+    background-color: rgb(39, 45, 34);
+}
+
+p{
+    color:rgb(255, 255, 255)
+}
+ul li a{
+    color: rgb(230, 154, 12);
+}
+ul li a:hover{
+    color: rgb(255, 255, 255);
+
+}
+
+h1 { background-image: url(Thegreenprintwhite.svg);
+     background-repeat: none;
+     background-size: contain;
+}
+h1 img {
+    opacity:0;
+    }
+    
+    
+
+h1,h2,h3 {
+    color: rgb(135, 151, 87);
 }
