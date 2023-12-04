@@ -14,66 +14,73 @@
         </head>	
 
         <body>
-            <div class="gallery_container">
+            <div class="photocontainer">
                 <header>
+                    <a href="index,html"></a>
                     <h1> <img src="The green print.png" alt="A green finger print with the title of blog publication"> </h1> <!-- ★ Please use a proper alt attribute.-->
                     
                     <nav>
                         <ul> <!-- ★ Use as many sections as you want, but replace the dashed lines with actual names for the sections of the publication. You may keep them all linked to the pound symbol, though. -->
                             <li><a href="index.html">Home</a></li>
                             <li><a href="mainstory.html">Featured</a></li>
-                            <li><a href="#">About us</a></li>
+                            <li><a href="photogallery.html">Gallery</a></li>
                             <li><a href="Newsletter.html">Newsletter</a></li>
                           
                         </ul>
                     </nav>
                 </header>
 
-                <h2> Photo Gallery </h2>
+                <input id="photo1" class="gellerynav" type="radio" name="item" checked="checked">
+                <input id="photo2" class="gellerynav" type="radio" name="item">
+                <input id="photo3" class="gellerynav" type="radio" name="item">
+                <input id="photo4" class="gellerynav" type="radio" name="item">
+                <input id="photo5" class="gellerynav" type="radio" name="item">
+                <input id="photo6" class="gellerynav" type="radio" name="item">
+                <input id="photo7" class="gellerynav" type="radio" name="item">
                 
-                <main>
-                    <figure class="gallery">
-                    <figure>
+                <main class="photogallery">
+                
+            
+                    <figure class="display">
                         <img src="sheep grazing.JPG" alt="Photo by Tablas Creek of Sheep Grazing.">
                         <figcaption>Sheep Grazing</figcaption> <!-- Photo by Tablas Creek of Sheep Grazing. -->
                     </figure>
-                    <!-- <figure class="gallery">
+                     <figure class="display">
                        <img src="clothing2.jpg" alt="Morro Rock in Morro Bay during sunset.">
-                        <figcaption>Sustainable Clothes</figcaption> Photo by Kyle Cottrell (@kcottrell) on Unsplash.
-                    </figure> -->
-                    <figure class="gallery">
+                        <figcaption>Sustainable Clothes</figcaption>
+                    </figure>
+                    <figure class="display">
                         <img src="how-to-eat-sustainably.jpg" alt="View of PetCo Park on a game day in San Diego, with the Downtown skyline in the background." > 
                         <figcaption>Local Food</figcaption>  <!-- Photo by Megan Ellis (@meganmarieee19) on Unsplash. -->
                     </figure>
-                    <figure class="gallery">
+                    <figure class="display">
                         <img src="Tablas Tree.JPG" alt="Cable cars on Powell Street in San Francisco on a sunny day.">
                         <figcaption>Tablas Creek</figcaption> <!-- Photo by Daniel Abadia (@pixeldan) on Unsplash. -->
                     </figure>
-                    <figure class="gallery">
+                    <figure class="display">
                         <img src="shepherd's dogs.JPG" alt="Cable cars on Powell Street in San Francisco on a sunny day.">
                         <figcaption>Tablas Creek</figcaption> <!-- Photo by Daniel Abadia (@pixeldan) on Unsplash. -->
                     </figure>
-                    <figure class="gallery">
+                    <figure class="display">
                         <img src="chickens.JPG" alt="Cable cars on Powell Street in San Francisco on a sunny day.">
                         <figcaption>Tablas Creek</figcaption> <!-- Photo by Daniel Abadia (@pixeldan) on Unsplash. -->
                     </figure>
-                    <figure class="gallery">
+                    <figure class="display">
                         <img src="vine thin.JPG" alt="Cable cars on Powell Street in San Francisco on a sunny day.">
                         <figcaption>Tablas Creek</figcaption> <!-- Photo by Daniel Abadia (@pixeldan) on Unsplash. -->
                     </figure>
                 </main>
                 
-                <nav>
-                    <nav class="gallery_nav">
+                    <nav class="thumbnails">
                     <label for="photo1">
                         <img src="sheep grazing.JPG" alt="Photo by Tablas Creek of sheep grazing.">
                     </label>
-                    <!--<label for="photo2">
+                    <label for="photo2">
                         <img src="clothing2.jpg" alt="Morro Rock in Morro Bay during sunset.">
                     </label>
                     <label for="photo3">
                         <img src="how-to-eat-sustainably.jpg" alt="View of PetCo Park on a game day in San Diego, with the Downtown skyline in the background.">
-                    </label> -->
+                    </label>
                     <label for="photo4">
                         <img src="Tablas Tree.JPG" alt="Cable cars on Powell Street in San Francisco on a sunny day.">
                     </label>
@@ -88,7 +95,6 @@
                     </label>
                    
                 </nav>
-                               
 
                 <footer>
                     <p> All rights reserved.</p>
